@@ -122,6 +122,11 @@ export default function Home() {
           <p style={{ fontSize: '1.2rem', marginTop: '20px' }}>
             Way towards innovation and maybe invention
           </p>
+
+          <div style={{ backgroundColor: 'black', padding: '10px', marginTop: '20px' }}>
+            <h2 style={{ color: 'white' }}>Damak Ko Developer</h2>
+            <a href="https://www.notion.so/Main-Page-180e5325c45380389498e4d209ea12a4?pvs=4" style={{ color: 'white' }}>Notes</a>
+          </div>
         </div>
       </div>
     </>
