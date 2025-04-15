@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 240, 240, 240;
+  --steel-blue: 70, 130, 180;
+  --steel-blue-light: 100, 160, 210;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 20, 20, 20;
+    --steel-blue: 70, 130, 180;
+    --steel-blue-light: 100, 160, 210;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+.steel-blue {
+  color: rgb(var(--steel-blue));
+}
+
+.bg-steel-blue {
+  background-color: rgb(var(--steel-blue));
+}
+
+.border-steel-blue {
+  border-color: rgb(var(--steel-blue));
+}
+
+.material-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+}
