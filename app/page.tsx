@@ -23,58 +23,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Alternating Sections */}
-      <section className="py-16 max-w-7xl mx-auto px-4">
-        {/* Left image, right text */}
-        <div className="flex flex-col md:flex-row items-center mb-20">
-          <div className="md:w-1/2 mb-6 md:mb-0 md:pr-8">
-            <div className="relative h-64 md:h-96 w-full rounded-lg overflow-hidden bg-gray-200">
-              <Image src="/placeholder.svg?height=400&width=600" alt="Feature image" fill className="object-cover" />
-            </div>
-          </div>
-          <div className="md:w-1/2 material-card p-6 rounded-lg">
-            <h3 className="text-2xl font-semibold mb-4">There is nothing here</h3>
-            <p className="mb-4">
-              But hopefully there will be something near the future. 
-            </p>
-            <p>Yep.</p>
-          </div>
-        </div>
-
-        {/* Right image, left text */}
-        <div className="flex flex-col md:flex-row-reverse items-center mb-20">
-          <div className="md:w-1/2 mb-6 md:mb-0 md:pl-8">
-            <div className="relative h-64 md:h-96 w-full rounded-lg overflow-hidden bg-gray-200">
-              <Image src="/placeholder.svg?height=400&width=600" alt="Feature image" fill className="object-cover" />
-            </div>
-          </div>
-          <div className="md:w-1/2 material-card p-6 rounded-lg">
-            <h3 className="text-2xl font-semibold mb-4">Same for this section, lets say tuned</h3>
-            <p className="mb-4">
-              Empty
-            </p>
-            <p>
-            Empty
-            </p>
-          </div>
-        </div>
-
-        {/* Left image, right text */}
-        <div className="flex flex-col md:flex-row items-center">
-          <div className="md:w-1/2 mb-6 md:mb-0 md:pr-8">
-            <div className="relative h-64 md:h-96 w-full rounded-lg overflow-hidden bg-gray-200">
-              <Image src="/placeholder.svg?height=400&width=600" alt="Feature image" fill className="object-cover" />
-            </div>
-          </div>
-          <div className="md:w-1/2 material-card p-6 rounded-lg">
-            <h3 className="text-2xl font-semibold mb-4">Yet another substitude</h3>
-            <p className="mb-4">
-              Blank, thats how big bang started
-            </p>
-            <p>I will update it somewhere near the future</p>
-          </div>
-        </div>
-      </section>
+      
     </div>
   )
 }
