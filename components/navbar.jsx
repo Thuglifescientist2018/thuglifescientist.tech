@@ -29,6 +29,12 @@ export default function Navbar() {
             >
               Projects and Missions
             </Link>
+            <Link
+              href="/blogs"
+              className="px-3 py-2 rounded-md text-sm font-medium hover:bg-steel-blue transition-colors"
+            >
+              Blogs
+            </Link>
           </div>
           <div className="md:hidden flex items-center">
             <button
@@ -62,6 +68,13 @@ export default function Navbar() {
               onClick={() => setIsMenuOpen(false)}
             >
               Projects and Missions
+            </Link>
+            <Link
+              href="/blogs"
+              className="block px-3 py-2 rounded-md text-base font-medium hover:bg-steel-blue"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Blogs
             </Link>
           </div>
         </div>
