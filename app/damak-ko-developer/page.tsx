@@ -30,8 +30,8 @@ export const metadata = {
 
 export default function DamakKoDeveloper() {
   return (
-    <div style={{ maxWidth: 600, margin: "0 auto", padding: 24 }}>
-      <h1>Damak Ko Developer</h1>
+    <div style={{ maxWidth: 600, margin: "4rem auto", padding: 24 }}>
+      <h1 style={{fontSize: "2rem"}}>Damak Ko Developer</h1>
       <p>
         Welcome to <strong>Damak Ko Developer</strong>! I create content for IT
         students of Nepal, focusing on coding and sharing important tech
